@@ -1,0 +1,16 @@
+# Ignore private keys
+*.key
+
+# Ignore generated certificates and chains
+*.pem
+*.csr
+*.crt
+*.cer
+
+# Ignore local directory structure (optional - remove if you want to track folder structure)
+ssl/
+
+# Ignore system/editor files
+.DS_Store
+.vscode/
+.idea/

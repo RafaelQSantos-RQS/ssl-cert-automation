@@ -1,0 +1,13 @@
+# Ensure line endings are consistent
+* text=auto
+
+# Treat all files as text unless specified otherwise
+* -text
+# Override for common text files
+*.sh text eol=lf
+*.bash text eol=lf
+*.md text eol=lf
+*.Makefile text eol=lf
+Makefile text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
